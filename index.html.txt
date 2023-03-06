@@ -1,0 +1,64 @@
+
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>HYUNDAI</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button19.jpg',/*url*/'button1A.jpg',/*url*/'button1C.jpg',/*url*/'button1D.jpg',/*url*/'button1F.jpg',/*url*/'button20.jpg')">
+
+<table border="1" width="100%" height="459">
+	<tr>
+		<td height="89">
+		<p align="center"><u><b><font size="7">HYUNDAI</font></b></u></td>
+	</tr>
+	<tr>
+		<td height="38">
+		<p align="center">
+		<img border="0" id="img1" src="button18.jpg" height="20" width="100" alt="home" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button19.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button18.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button19.jpg')" fp-style="fp-btn: Embossed Capsule 1" fp-title="home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="About%20My%20Hyundai.htm">
+		<img border="0" id="img2" src="button1B.jpg" height="20" width="100" alt="About My Hyundai" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button1C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button1B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button1D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button1C.jpg')" fp-style="fp-btn: Embossed Capsule 1" fp-title="About My Hyundai"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Contact%20Us.htm">
+		<img border="0" id="img3" src="button1E.jpg" height="20" width="100" alt="Contact us" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1F.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1E.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button20.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1F.jpg')" fp-style="fp-btn: Embossed Capsule 1" fp-title="Contact us"></a></td>
+	</tr>
+	<tr>
+		<td height="38">
+		<marquee bgcolor="#FFFFFF">HYUNDAI IS THE BEST.</marquee></td>
+	</tr>
+	<tr>
+		<td>
+		<!--webbot bot="PhotoAlbum" U-Include="photogallery/photo00030121/real.htm" clientside TAG="BODY" --><p>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
